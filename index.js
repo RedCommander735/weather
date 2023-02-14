@@ -80,7 +80,7 @@ async function update_weater(lat, lon) {
     const time = current_weather_code.split('_')[1];
     const current_weather = legend[code_wo_time].desc_en
 
-    image.innerHTML = await fetch(`/svg/${current_weather_code}.svg`)
+    image.innerHTML = await fetch(`https://github.com/RedCommander735/weather/tree/master/svg/${current_weather_code}.svg`)
     .then((response) => response.text());
 
     text.innerHTML = `<p>${current_weather}</p>`
