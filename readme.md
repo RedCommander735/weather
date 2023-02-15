@@ -1,4 +1,7 @@
 # A simple weather app
 
-Weather API used: https://api.met.no/
-Location API used: https://nominatim.org/
+Weather API used: [MET Norway](https://api.met.no/doc/License)
+
+Location API used: [OpenStreetMap](https://openstreetmap.org/copyright)
+
+Deployed [here](https://redcommander735.github.io/weather)
